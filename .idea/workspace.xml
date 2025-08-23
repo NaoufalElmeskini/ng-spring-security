@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd80d085-1cb2-438f-943c-15ae39a4548b" name="Changes" comment="updating wip" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="MVP-007 | Ajouter événement agenda&#10;done : ajouter security&#10;next : desactiver polution logs" />
+        <option name="rewordedMessage" value="MVP-007 | Ajouter événement agenda (event statique)" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="3dee3b95596b18ea89e11ad1ba74bb2176143c98" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2wNTw57kY0KXIQRyhxoUviH3N9y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.StatusControllerTest.whenICallStatusAPI.executor": "Run",
+    "JUnit.StatusControllerTest.whenITryToXXX.executor": "Run",
+    "Maven.spring-rest-api [clean,compile].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.SpringApplication.executor": "Run",
+    "Spring Boot.SpringRestApiApplication.executor": "Run",
+    "Spring Boot.SpringTiagoApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/USER/Desktop/local-projects/informatique/ng-spring-security/frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\local-projects\informatique\ng-spring-security\frontend" />
+      <recent name="C:\Users\USER\Desktop\local-projects\informatique\tintin-agent\tutorial-spring-security" />
+      <recent name="C:\Users\USER\Desktop\local-projects\informatique\tintin-agent\tiag-bot" />
+      <recent name="C:\Users\USER\Desktop\local-projects\informatique\tintin-agent\tiag-bot\credentials" />
+      <recent name="C:\Users\USER\Desktop\local-projects\informatique\tintin-agent\tiag-bot\src\test\java\io\lacrobate\spring_rest_api\status" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Desktop\local-projects\informatique\ng-spring-security" />
+      <recent name="C:\Users\USER\Desktop\local-projects\informatique\tintin-agent\tutorial-spring-security\annexe" />
+      <recent name="C:\Users\USER\Desktop\local-projects\informatique\tintin-agent\tiag-bot\credentials" />
+      <recent name="C:\Users\USER\Desktop\local-projects\informatique\tintin-agent\tiag-bot\http-collection" />
+      <recent name="C:\Users\USER\Desktop\local-projects\informatique\tintin-agent\tiag-bot" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="io.lacrobate.spring_rest_api.status" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io.lacrobate.spring_rest_api.status" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.lacrobate.tiago.controller" />
+      <recent name="io.lacrobate.tiago.status" />
+      <recent name="io.lacrobate.spring_rest_api.status" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringApplication">
+    <configuration name="StatusControllerTest.whenICallStatusAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rest-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.lacrobate.tiago.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.lacrobate.spring_rest_api.status" />
+      <option name="MAIN_CLASS_NAME" value="io.lacrobate.tiago.status.StatusControllerTest" />
+      <option name="METHOD_NAME" value="whenICallStatusAPI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatusControllerTest.whenITryToXXX" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-rest-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.lacrobate.tiago.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.lacrobate.spring_rest_api.status" />
+      <option name="MAIN_CLASS_NAME" value="io.lacrobate.tiago.status.StatusControllerTest" />
+      <option name="METHOD_NAME" value="whenITryToXXX" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="tiag-bot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="tiag-bot" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <module name="demos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.lacrobate.tiago.SpringApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.lacrobate.tiago.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.StatusControllerTest.whenICallStatusAPI" />
+      <item itemvalue="JUnit.StatusControllerTest.whenITryToXXX" />
+      <item itemvalue="Spring Boot.SpringApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringApplication" />
+        <item itemvalue="JUnit.StatusControllerTest.whenICallStatusAPI" />
+        <item itemvalue="JUnit.StatusControllerTest.whenITryToXXX" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd80d085-1cb2-438f-943c-15ae39a4548b" name="Changes" comment="" />
+      <created>1745881267074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745881267074</updated>
+      <workItem from="1745881269279" duration="3851000" />
+      <workItem from="1746162607506" duration="8301000" />
+      <workItem from="1746178351672" duration="1919000" />
+      <workItem from="1746251850823" duration="12722000" />
+      <workItem from="1746334478101" duration="10544000" />
+      <workItem from="1746350299665" duration="7250000" />
+      <workItem from="1746369948839" duration="2710000" />
+      <workItem from="1746423577755" duration="566000" />
+      <workItem from="1747289714663" duration="639000" />
+      <workItem from="1755934281696" duration="308000" />
+      <workItem from="1755935096675" duration="704000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1745882007190</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745882007190</updated>
+    </task>
+    <task id="LOCAL-00002" summary="quand le bot recoit un message, afficher un log&#10;&#10;---&#10;given :&#10;when :&#10;sur l'appli Telegrame  j'envoi /helloBot - coucou&#10;then :&#10;log affiché ici">
+      <option name="closed" value="true" />
+      <created>1745882794019</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745882794019</updated>
+    </task>
+    <task id="LOCAL-00003" summary="quand l'appli demarre, le bot envoit un message à un utilisateur">
+      <option name="closed" value="true" />
+      <created>1745883729255</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745883729255</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: Bot envoie un message&#10;&#10;---&#10;scenario : quand l'appli demarre, le bot envoit un message à un utilisateur">
+      <option name="closed" value="true" />
+      <created>1745884930479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745884930479</updated>
+    </task>
+    <task id="LOCAL-00005" summary="refacto : rendre configurable user data (telegram ids, tokens...">
+      <option name="closed" value="true" />
+      <created>1746171412397</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746171412397</updated>
+    </task>
+    <task id="LOCAL-00006" summary="refacto : rendre configurable user data (telegram ids, tokens...">
+      <option name="closed" value="true" />
+      <created>1746171767635</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746171767635</updated>
+    </task>
+    <task id="LOCAL-00007" summary="MVP-007 | Ajouter événement agenda">
+      <option name="closed" value="true" />
+      <created>1746258190507</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746258190507</updated>
+    </task>
+    <task id="LOCAL-00008" summary="MVP-007 | Ajouter événement agenda&#10;done : ajouter security&#10;next : desactiver polution logs">
+      <option name="closed" value="true" />
+      <created>1746259388183</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1746259388183</updated>
+    </task>
+    <task id="LOCAL-00009" summary="MVP-007 | Ajouter événement agenda">
+      <option name="closed" value="true" />
+      <created>1746265607456</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746265607456</updated>
+    </task>
+    <task id="LOCAL-00010" summary="MVP-007 | Ajouter événement agenda">
+      <option name="closed" value="true" />
+      <created>1746266051601</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1746266051601</updated>
+    </task>
+    <task id="LOCAL-00011" summary="MVP-007 | Ajouter événement agenda (event statique)">
+      <option name="closed" value="true" />
+      <created>1746266796390</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746266796390</updated>
+    </task>
+    <task id="LOCAL-00012" summary="MVP-007 | Ajouter événement agenda (event statique)">
+      <option name="closed" value="true" />
+      <created>1746267077466</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746267077466</updated>
+    </task>
+    <task id="LOCAL-00013" summary="MVP-007 | Ajouter événement agenda (event statique)">
+      <option name="closed" value="true" />
+      <created>1746267214403</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1746267214403</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat MVP-007 : Ajouter événement agenda (event statique)">
+      <option name="closed" value="true" />
+      <created>1746267400738</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746267400738</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge pull request #1 from NaoufalElmeskini/MVP-007&#10;&#10;feat MVP-007 : Ajouter événement agenda (event statique)">
+      <option name="closed" value="true" />
+      <created>1746267761100</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1746267761100</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge pull request #1 from NaoufalElmeskini/MVP-007&#10;&#10;feat MVP-007 : Ajouter événement agenda (event statique)">
+      <option name="closed" value="true" />
+      <created>1746267806308</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1746267806308</updated>
+    </task>
+    <task id="LOCAL-00017" summary="endpoint generique GET  /bienvenue&#10;endpoint securisé GET /quisuisje">
+      <option name="closed" value="true" />
+      <created>1746345735098</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1746345735098</updated>
+    </task>
+    <task id="LOCAL-00018" summary="endpoint generique GET  /bienvenue&#10;endpoint securisé GET /moi/quisuisje">
+      <option name="closed" value="true" />
+      <created>1746345967518</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1746345967518</updated>
+    </task>
+    <task id="LOCAL-00019" summary="ajouter 2 users [beatrice, aboubakar]">
+      <option name="closed" value="true" />
+      <created>1746346282706</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1746346282706</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ajouter 2 users [beatrice, aboubakar]">
+      <option name="closed" value="true" />
+      <created>1746346571432</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1746346571432</updated>
+    </task>
+    <task id="LOCAL-00021" summary="refacto : recuperer information user via SecurityContextHolder">
+      <option name="closed" value="true" />
+      <created>1746347195417</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1746347195417</updated>
+    </task>
+    <task id="LOCAL-00022" summary="refacto : recuperer information user via SecurityContextHolder">
+      <option name="closed" value="true" />
+      <created>1746364569843</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1746364569843</updated>
+    </task>
+    <task id="LOCAL-00023" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1746370478875</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1746370478875</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Merge branch 'main' of github.com:NaoufalElmeskini/tuto-spring-security">
+      <option name="closed" value="true" />
+      <created>1746370948445</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1746370948445</updated>
+    </task>
+    <task id="LOCAL-00025" summary="updating wip">
+      <option name="closed" value="true" />
+      <created>1746372533242</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1746372533242</updated>
+    </task>
+    <task id="LOCAL-00026" summary="updating wip">
+      <option name="closed" value="true" />
+      <created>1755934327047</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1755934327047</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Bot recoit les messages&#10;&#10;---&#10;quand (sur Telegrame)  j'envoi un message M a /Bot&#10;M est loggué dans l'appli" />
+    <MESSAGE value="feat: Bot envoie un message&#10;&#10;--- &#10;scenario : quand l'appli demarre, le bot envoit un message à un utilisateur" />
+    <MESSAGE value="feat: Bot envoie un message&#10;&#10;--- &#10;scenario : quand l'appli demarre, le bot envoit un message à un utilisateur" />
+    <MESSAGE value="feat: reception&#10;---&#10;quand (sur Telegrame)  j'envoi un message M a /Bot&#10;M est loggué dans l'appli" />
+    <MESSAGE value="quand le bot recoit des message, afficher un log&#10;&#10;---&#10;given :&#10;when :&#10;sur l'appli Telegrame  j'envoi /helloBot - coucou&#10;then :&#10;log affiché ici" />
+    <MESSAGE value="feat: Bot recoit les messages&#10;&#10;---&#10;quand (sur Telegrame)  j'envoi un message M a /Bot&#10;M est loggué dans l'appli" />
+    <MESSAGE value="quand l'appli demarre, le bot envoit un message à un utilisateur" />
+    <MESSAGE value="feat: Bot envoie un message&#10;&#10;---&#10;scenario : quand l'appli demarre, le bot envoit un message à un utilisateur" />
+    <MESSAGE value="refacto : rendre configurable user data (telegram ids, tokens...&#10;next : TI and doc" />
+    <MESSAGE value="next : TI and doc" />
+    <MESSAGE value="refacto : rendre configurable user data (telegram ids, tokens..." />
+    <MESSAGE value="MVP-007 | Ajouter événement agenda&#10;done : ajouter security&#10;next : desactiver polution logs" />
+    <MESSAGE value="MVP-007 | Ajouter événement agenda" />
+    <MESSAGE value="MVP-007 | Ajouter événement agenda (event statique)" />
+    <MESSAGE value="feat MVP-007 : Ajouter événement agenda (event statique)" />
+    <MESSAGE value="feat MVP-007 : Ajouter événement agenda (event statique)" />
+    <MESSAGE value="Merge pull request #1 from NaoufalElmeskini/MVP-007&#10;&#10;feat MVP-007 : Ajouter événement agenda (event statique)" />
+    <MESSAGE value="endpoint generique GET  /bienvenue&#10;endpoint securisé GET /quisuisje" />
+    <MESSAGE value="endpoint generique GET  /bienvenue&#10;endpoint securisé GET /moi/quisuisje" />
+    <MESSAGE value="ajouter 2 users [beatrice, aboubakar]" />
+    <MESSAGE value="refacto : recuperer information user via SecurityContextHolder" />
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Merge branch 'main' of github.com:NaoufalElmeskini/tuto-spring-security" />
+    <MESSAGE value="updating wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating wip" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/lacrobate/tiago/controller/AccueilController.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
