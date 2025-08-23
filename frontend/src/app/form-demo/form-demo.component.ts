@@ -1,6 +1,7 @@
-import { Component, EventEmitter, OnDestroy, OnInit, Output } from '@angular/core';
-import { AbstractControl, FormControl, ReactiveFormsModule } from '@angular/forms';
-import { Subject } from 'rxjs';
+import {Component} from '@angular/core';
+import {ReactiveFormsModule} from '@angular/forms';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
+
 
 @Component({
   selector: 'form-demo',
@@ -8,43 +9,23 @@ import { Subject } from 'rxjs';
   templateUrl: './form-demo.component.html',
   styleUrl: './form-demo.component.css'
 })
-export class FormDemoComponent implements OnInit, OnDestroy {
-  file: any = '';
-  lastName!: FormControl;
-  message = 'default';
+export class FormDemoComponent {
+  welcomeMessage: string = '';
 
-  @Output()
-  upload: EventEmitter<any> = new EventEmitter();
-
-  private destroy$ = new Subject<void>();
-
-
-  ngOnInit() {
-    this.upload.emit('from child with love');
-    this.lastName = new FormControl('');
-    this.lastName.addValidators(this.totoValidator);
-
-    this.lastName.setValue('tot');
-    this.lastName.valueChanges.subscribe(this.loggingObserver);
+  constructor(private http: HttpClient) {
   }
 
-  totoValidator = (control: AbstractControl) => {
-    let value = control.value;
-    if (value == 'toto') {
-      this.message = 'not valid!';
-    } else {
-      this.message = 'valid :)';
+  checkApi() {
+    const options = {
+      headers: new HttpHeaders({'Authorization': 'Basic YmVhdHJpY2U6cGFzc3dvcmQ='}),
+      responseType: 'text' as const
+    };
 
-    }
-    return null;
-  };
-
-  loggingObserver = (newName: any) => {
-    console.log('lastName: ' + newName);
+    this.http.get('http://localhost:8080/api/bienvenue', options)
+      .subscribe((val: any) => {
+        console.log(val)
+        this.welcomeMessage = val;
+      })
   }
 
-  ngOnDestroy() {
-    this.destroy$.next();
-    this.destroy$.complete();
-  }
 }

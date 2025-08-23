@@ -63,17 +63,19 @@
     "Spring Boot.SpringTiagoApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/USER/Desktop/local-projects/informatique/ng-spring-security/frontend",
+    "last_opened_file_path": "C:/Users/USER/Desktop/local-projects/informatique/ng-spring-security/backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -204,7 +206,10 @@
       <workItem from="1746423577755" duration="566000" />
       <workItem from="1747289714663" duration="639000" />
       <workItem from="1755934281696" duration="308000" />
-      <workItem from="1755935096675" duration="704000" />
+      <workItem from="1755935096675" duration="1167000" />
+      <workItem from="1755936305310" duration="253000" />
+      <workItem from="1755936589077" duration="979000" />
+      <workItem from="1755944689288" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
