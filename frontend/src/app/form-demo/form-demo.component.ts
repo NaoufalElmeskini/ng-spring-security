@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {ReactiveFormsModule} from '@angular/forms';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {HttpClient} from '@angular/common/http';
 
 
 @Component({
@@ -16,12 +16,7 @@ export class FormDemoComponent {
   }
 
   checkApi() {
-    const options = {
-      headers: new HttpHeaders({'Authorization': 'Basic YmVhdHJpY2U6cGFzc3dvcmQ='}),
-      responseType: 'text' as const
-    };
-
-    this.http.get('http://localhost:8080/api/bienvenue', options)
+    this.http.get('http://localhost:8080/api/bienvenue')
       .subscribe((val: any) => {
         console.log(val)
         this.welcomeMessage = val;
