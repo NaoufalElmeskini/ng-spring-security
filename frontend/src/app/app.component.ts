@@ -1,10 +1,10 @@
 import {Component} from '@angular/core';
 import {RouterOutlet} from '@angular/router';
-import {FormDemoComponent} from './form-demo/form-demo.component';
+import {SimpleApiCallerComponent} from './api-caller/simple-api-caller.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, FormDemoComponent],
+  imports: [RouterOutlet, SimpleApiCallerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

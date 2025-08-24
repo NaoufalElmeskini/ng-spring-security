@@ -4,12 +4,12 @@ import {HttpClient} from '@angular/common/http';
 
 
 @Component({
-  selector: 'form-demo',
+  selector: 'simple-api-caller',
   imports: [ReactiveFormsModule],
-  templateUrl: './form-demo.component.html',
-  styleUrl: './form-demo.component.css'
+  templateUrl: './simple-api-caller.component.html',
+  styleUrl: './simple-api-caller.component.css'
 })
-export class FormDemoComponent {
+export class SimpleApiCallerComponent {
   welcomeMessage: string = '';
 
   constructor(private http: HttpClient) {
